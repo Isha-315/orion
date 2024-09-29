@@ -1,0 +1,406 @@
+*{
+        margin: 0;
+        padding: 0;
+    }
+    .first{
+        width: 100vw;
+        height: 110vh;
+    }
+    nav{
+        display: flex;
+        padding: 5px 50px;
+        gap: 30px;
+        justify-content: space-between;
+        align-content: center;
+        padding-top: 0;
+        padding-bottom: 50px;
+       
+    }
+    body img{
+        transform: rotate(180deg);
+    }
+    .navmid{
+    color: var(--Primary-Primary, rgba(6, 40, 110, 1));
+    font-weight: bold;
+    line-height: 24px;
+    display: flex;
+    gap: 30px;
+    }
+    .main{
+        display: flex;
+        position: absolute;
+        top: 150px;
+        padding-left: 100px;
+        height: 100vh;
+        
+    }
+    .imgflex{
+       height: 400px;
+       width: 500px;
+        
+    }
+    
+    .maintext{
+        height: 800px;
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .secondimg{
+        position: absolute;
+        top: 550px;
+    
+    }
+    .second{
+        width: 80vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+        padding-left: 100px;
+        align-items: center;
+        position: relative;
+     
+    }
+    h1 span{
+        color: rgb(20, 20, 53);
+        font-size: 50px;
+    }
+    .motiv{
+        color: blue;
+    }
+    .card{
+        background-color: blue;
+        width: 1000px;
+        height: 700px;
+        border: 1px solid blue ;
+        border-radius: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        gap: 15px;
+    }
+    .box{
+        background-color: white;
+        border: 2px solid white;
+        width: 700px;
+        height: 300px;
+        
+        margin-top: 50px;
+        border-radius: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        gap: 60px;
+    }
+    .brush{
+        position: absolute;
+        top: 70px;
+        padding-left: 20px;
+    }
+    
+    .box p{
+        color: rgb(32, 32, 88);
+        font-size: larger;
+        font-weight: bold;
+    }
+    .box h4{
+        color: rgb(73, 126, 126);
+        font-size: x-large;
+        padding-top: 20px;
+    }
+    .third{
+        display: flex;
+        justify-content: space-around;
+        
+       
+    }
+    .third h1{
+        font-size: 40px;
+        color: blue;
+        padding-bottom: 50px;
+    
+        
+    }
+    .thirdtext{
+        padding-top: 50px;
+        width: 500px;
+    }
+    .third img{
+        width: 500px;
+        height: 600px;
+    }
+    ul{
+        line-height: 30px;
+        padding-top: 30px;
+    }
+    .picture img{
+        width: 1100px;
+        padding-left: 100px;
+    }
+    .fourth{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px
+        ;
+    }
+    .fourth h1{
+        color: blue;
+    }
+    .fourth img{
+        width: 600px;
+        height: 400px;
+    }
+    button{
+        background-color: blue;
+        color: white;
+        padding: 10px;
+        border: 1px solid blue;
+        border-radius: 10px;
+    }
+    
+    footer {
+        height: 60vh;
+        width: auto;
+    }
+    
+    .footertext {
+        font-size: 15px;
+        color: rgb(0, 0, 0);
+        padding-bottom: 20px;
+    
+    }
+    
+    
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 35px 35px 35px 35px;
+        gap: 0px 100px;
+        color: rgb(10, 10, 10);
+        font-size: 15px;
+        text-decoration: underline;
+    
+    }
+    
+    .grid div:hover {
+        cursor: pointer;
+    }
+    
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+        padding-left: 70px;
+    
+    }
+    .headline{
+        /* Secondary Headline */
+    
+    width: 1280px;
+    height: 62px;
+    
+    /* Heading/2 */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 110%;
+    /* identical to box height, or 62px */
+    text-align: center;
+    
+    color: #06286E;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    
+    }
+    .question{
+        /* Toggle */
+    
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    
+    width: 1264px;
+    height: 38px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    
+    /* Question */
+    
+    width: 1240px;
+    height: 38px;
+    
+    /* Body/XXL */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160%;
+    /* or 38px */
+    
+    color: #3D6CCA;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    
+    
+    }
+    .text{
+        /* Text */
+    
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 1264px;
+    height: 58px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    
+    }
+    .question1{
+        /* Question */
+    
+    width: 1232px;
+    height: 38px;
+    
+    /* Body/XXL */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160%;
+    /* or 38px */
+    
+    color: #3D6CCA;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    
+    
+    
+    }
+    .vector{
+        /* Vector (Stroke) */
+    
+    position: absolute;
+    left: 17.19%;
+    right: 17.19%;
+    top: 31.25%;
+    bottom: 31.25%;
+    
+    background: #3D6CCA;
+    
+    }
+    .q2{
+        /* Question */
+    width: 1232px;
+    height: 38px;
+    
+    /* Body/XXL */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160%;
+    /* or 38px */
+    
+    color: #3D6CCA;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    
+    }
+    .q3{
+        /* Question */
+    
+    width: 1232px;
+    height: 38px;
+    
+    /* Body/XXL */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160%;
+    /* or 38px */
+    
+    color: #3D6CCA;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    
+    }
+    .q4{
+        /* Question */
+    
+    width: 1232px;
+    height: 38px;
+    
+    /* Body/XXL */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160%;
+    /* or 38px */
+    
+    color: #3D6CCA;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    
+    }
+    @media screen and (max-width: 500px) {
+        nav {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                padding-bottom: 50px;
+            
+    
+        }
+    }
+    
